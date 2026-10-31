@@ -11,7 +11,6 @@
   <a href="https://www.linkedin.com/in/abrlipac/"><img src="https://img.shields.io/badge/LinkedIn-abrlipac-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:alipacala@outlook.com"><img src="https://img.shields.io/badge/Outlook-alipacala%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
   <img src="https://img.shields.io/badge/English-C2%20Proficient-22C55E?style=for-the-badge&logo=duolingo&logoColor=white" alt="English C2" />
-  <img src="https://komarev.com/ghpvc/?username=alipacala&style=for-the-badge&color=38BDF8&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 <p align="center">
