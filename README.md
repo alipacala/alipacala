@@ -22,10 +22,6 @@
   <img src="https://img.shields.io/badge/Location-Lima%2C%20Per%C3%BA-38BDF8?style=flat-square" alt="Location" />
 </p>
 
-<p align="center">
-  <img src="https://terminal-identity-opal.vercel.app/api?name=Abraham%20Lipa&username=alipacala&role=Senior%20Software%20Analyst&tagline=Distributed%20Systems%20%C2%B7%20CQRS%20%26%20Event%20Sourcing%20%C2%B7%20.NET%20%26%20Azure&command=dotnet%20run%20--project%20Aegirax&theme=dark/tokyo&avatar=AL&accent=%2338BDF8&showLangs=off&showContribs=on&width=920" width="100%" alt="Terminal Identity" />
-</p>
-
 </div>
 
 ---
@@ -218,7 +214,15 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
 
 ---
 
-### 💼 Perfil Profesional & Contacto Directo
+### 💼 Perfil Profesional & Conexión Directa
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/alipacala/alipacala/main/assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
+  </a>
+</div>
+
+<br>
 
 <table width="100%">
   <tr>
@@ -228,7 +232,7 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
         <code>Senior Software Analyst · .NET + Azure | CQRS + MediatR | Systems for Top-Tier Mining Companies</code>
       </p>
       <p>
-        Especialista backend con foco en microservicios transaccionales, consistencia de datos y liderazgo de equipos de desarrollo. Abierto a retos arquitectónicos de alta escala y proyectos de ingeniería distribuida.
+        Especialista backend con foco en microservicios transaccionales, consistencia eventual, observabilidad y liderazgo técnico. Abierto a retos de ingeniería distribuida, modernización de arquitectura cloud y plataformas de alta demanda.
       </p>
       <ul>
         <li><b>Ubicación:</b> Lima, Perú (Disponible para esquemas Remoto / Híbrido)</li>
@@ -238,11 +242,15 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
     </td>
     <td width="35%" align="center" valign="middle">
       <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/LinkedIn-Ver%20Perfil%20Profesional-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" width="100%" alt="LinkedIn Profile" />
+        <img src="https://img.shields.io/badge/LinkedIn-abrlipac-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="90%" alt="LinkedIn Profile" />
       </a>
       <br><br>
       <a href="mailto:alipacala@outlook.com">
-        <img src="https://img.shields.io/badge/Outlook-Contacto%20Directo-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" width="100%" alt="Direct Email" />
+        <img src="https://img.shields.io/badge/Outlook-alipacala%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" width="90%" alt="Direct Email" />
+      </a>
+      <br><br>
+      <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.shields.io/badge/SaaS-aegirax.com-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" width="90%" alt="Aegirax Platform" />
       </a>
     </td>
   </tr>
