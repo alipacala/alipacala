@@ -1,9 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1E293B&height=190&section=header&text=Abraham%20Lipa%20Calabilla&fontSize=40&fontColor=38BDF8&desc=Senior%20Software%20Analyst%20%C2%B7%20Distributed%20Systems%20%C2%B7%20.NET%20%26%20Azure&descSize=15&descAlignY=62&descColor=94A3B8" width="100%" alt="Header Banner" />
+# Abraham Lipa Calabilla
+### **Senior Software Analyst · Backend Architecture & Distributed Systems**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=680&lines=Senior+Software+Analyst+%C2%B7+.NET+8%2F10+%2B+Azure;Distributed+Systems+%C2%B7+CQRS+%26+Event+Sourcing;Tech+Lead+%C2%B7+~40+PRs%2Fweek+%26+Architecture+Standards;Creator+of+Aegirax+%C2%B7+Hexagonal+%2B+Cloud+Run" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=1100&color=38BDF8&center=true&vCenter=true&width=680&lines=Senior+Software+Analyst+%C2%B7+.NET+8%2F10+%2B+Azure;Distributed+Systems+%C2%B7+CQRS+%26+Event+Sourcing;Tech+Lead+%C2%B7+~40+PRs%2Fweek+%26+Architecture+Standards;Creator+of+Aegirax+%C2%B7+Hexagonal+%2B+Cloud+Run" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -121,8 +122,4 @@
       </td>
     </tr>
   </table>
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E293B,100:0D1117&height=90&section=footer" width="100%" alt="Footer Banner" />
 </div>
