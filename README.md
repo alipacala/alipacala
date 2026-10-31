@@ -218,7 +218,7 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
 
 <div align="center">
   <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
-    <img src="https://raw.githubusercontent.com/alipacala/alipacala/main/assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
+    <img src="./assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
   </a>
 </div>
 
