@@ -1,8 +1,34 @@
-<div align="center">
-
-<img src="./assets/profile-card.svg" width="100%" alt="Abraham Lipa Calabilla · Senior Software Engineer" />
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="16%" align="center" valign="middle">
+      <img src="./assets/avatar-waving.svg" width="100" height="100" alt="Abraham Lipa Calabilla" />
+    </td>
+    <td width="60%" valign="middle">
+      <p><code>SENIOR SOFTWARE ENGINEER · DISTRIBUTED SYSTEMS &amp; ARCHITECTURE</code></p>
+      <h3><b>Abraham Lipa Calabilla</b>&nbsp;&nbsp;<img src="./assets/badge-verified.svg" width="18" height="18" valign="middle" alt="Verified" /></h3>
+      <p><code>Microservices in .NET 10 &amp; Cloud | CQRS &amp; Event Sourcing | High-Scale Distributed Systems</code></p>
+      <img src="./assets/profile-pills.svg" width="100%" alt="Key Technical Highlights" />
+    </td>
+    <td width="24%" align="center" valign="middle">
+      <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/btn-linkedin.svg" width="146" height="34" alt="LinkedIn Profile" />
+      </a>
+      <br><br>
+      <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer">
+        <img src="./assets/btn-aegirax.svg" width="146" height="34" alt="Aegirax Platform" />
+      </a>
+      <br><br>
+      <a href="mailto:alipacala@outlook.com">
+        <img src="./assets/btn-contact.svg" width="146" height="34" alt="Direct Email" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <sub>Hexagonal Architecture · Event-Driven Microservices · CQRS &amp; Event Sourcing · Spec-Driven Engineering</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
