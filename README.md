@@ -39,86 +39,107 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
 
 ### 🚀 Sistemas Principales en Producción
 
-<table width="100%">
+#### 1. ⚡ Aegirax — Plataforma SaaS en Producción (Proyecto Propio)
+> *Operación técnica continua como único responsable de código, arquitectura, confiabilidad y despliegue.*
+
+<table border="0">
   <tr>
-    <td width="33%" align="center" valign="top">
-      <h4><b>⚡ Aegirax (Foco Principal)</b></h4>
+    <td width="36%" valign="top" align="center">
       <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer">
-        <img src="https://image.thum.io/get/width/600/crop/400/https://aegirax.com" width="100%" alt="Preview Aegirax" style="border-radius: 6px;" />
+        <img src="https://image.thum.io/get/width/600/crop/400/https://aegirax.com" width="100%" alt="Aegirax Live Preview" style="border-radius: 8px;" />
       </a>
       <br><br>
       <a href="https://aegirax.com">
-        <img src="https://img.shields.io/badge/Live%20Platform-aegirax.com-6366F1?style=flat-square&logo=google-chrome&logoColor=white" alt="aegirax.com" />
-      </a>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <h4><b>🏢 IDS Latam</b></h4>
-      <a href="https://www.idslatam.com" target="_blank" rel="noopener noreferrer">
-        <img src="https://image.thum.io/get/width/600/crop/400/https://www.idslatam.com" width="100%" alt="Preview IDS Latam" style="border-radius: 6px;" />
+        <img src="https://img.shields.io/badge/Live%20Platform-aegirax.com-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="aegirax.com" />
       </a>
       <br><br>
-      <a href="https://www.idslatam.com">
-        <img src="https://img.shields.io/badge/Live%20Web-idslatam.com-0078D4?style=flat-square&logo=google-chrome&logoColor=white" alt="idslatam.com" />
-      </a>
+      <div align="left">
+        <b>🛠️ Stack Tecnológico:</b><br>
+        <code>.NET 10</code> · <code>C# 12</code> · <code>Wolverine</code> · <code>Marten (Event Sourcing)</code> · <code>PostgreSQL</code> · <code>Redis</code> · <code>Keycloak (OIDC/JWT)</code> · <code>GCP Cloud Run</code> · <code>Docker (Multi-stage)</code> · <code>GitHub Actions (WIF)</code> · <code>OpenTelemetry (OTLP)</code> · <code>xUnit</code> · <code>Testcontainers</code> · <code>Expo (React Native)</code>
+      </div>
     </td>
-    <td width="33%" align="center" valign="top">
-      <h4><b>🏨 Arenas Hotel & Spa</b></h4>
-      <a href="https://www.arenashotelspa.com.pe" target="_blank" rel="noopener noreferrer">
-        <img src="https://image.thum.io/get/width/600/crop/400/https://www.arenashotelspa.com.pe" width="100%" alt="Preview Arenas Hotel & Spa" style="border-radius: 6px;" />
-      </a>
-      <br><br>
-      <a href="https://www.arenashotelspa.com.pe">
-        <img src="https://img.shields.io/badge/Live%20Portal-arenashotelspa.com.pe-059669?style=flat-square&logo=google-chrome&logoColor=white" alt="arenashotelspa.com.pe" />
-      </a>
+    <td width="64%" valign="top">
+      <ul>
+        <li><b>Arquitectura Hexagonal & DDD:</b> Microservicios en <b>.NET 10 / C# 12</b> estructurados en <b>5 Bounded Contexts</b>, Clean Architecture estricta, desacoplamiento de frameworks, value objects tipados con Vogen y validación con FluentValidation.</li>
+        <li><b>CQRS & Event Sourcing Avanzado:</b> Implementado con <b>Wolverine + Marten</b> sobre <b>PostgreSQL</b>, aislando mutaciones transaccionales mediante streams de eventos inmutables de dominio.</li>
+        <li><b>Identidad & Caché Distribuido:</b> Autenticación y autorización federada con <b>Keycloak (OIDC / JWT multi-tenant)</b> con resolución dinámica de claims por tenant y <b>Redis</b> como caché distribuido.</li>
+        <li><b>Infraestructura Cloud Serverless (GCP):</b> Despliegue automatizado de <b>8 microservicios en Google Cloud Run</b> con Cloud Build, Artifact Registry, Pub/Sub, Docker multi-stage y <b>GitHub Actions vía Workload Identity Federation (WIF)</b>, sin credenciales estáticas en repositorios. DNS y protección perimetral en Cloudflare.</li>
+        <li><b>Testing Exhaustivo:</b> Suite automatizada de <b>1,353 tests</b> (unitarios, integración y arquitectura) con xUnit, FluentAssertions, Respawn, Verify y <b>Testcontainers</b> ejecutados contra contenedores reales de PostgreSQL y Redis.</li>
+        <li><b>Observabilidad & Gobernanza Spec-Driven:</b> Instrumentación con <b>OpenTelemetry (OTLP)</b> y Cloud Logging (identificando 10+ incidencias reales y optimizando memoria y cold start); ingeniería guiada por <b>127 planes ejecutados, 26 ADRs</b>, libro de deuda técnica con ciclo de vida (<b>224 deudas cerradas</b>) y gate de biblioteca anclado por hash.</li>
+        <li><b>App Móvil:</b> Desarrollada con <b>Expo SDK (React Native)</b>, TypeScript, expo-router y NativeWind, con builds EAS listas para publicación.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
-<br>
-
-| Sistema / Proyecto | Garantía Arquitectónica & Escala de Negocio | Stack Tecnológico Específico |
-| :--- | :--- | :--- |
-| **⚡ Aegirax**<br>*(SaaS en Producción)*<br>[🌐 `aegirax.com`](https://aegirax.com) | • Arquitectura Hexagonal y DDD en **5 Bounded Contexts**.<br>• **CQRS & Event Sourcing** con Wolverine + Marten sobre PostgreSQL.<br>• **8 microservicios en GCP Cloud Run** con Docker multi-stage y CI/CD vía WIF.<br>• Suite de **1,353 tests** con Testcontainers; app móvil con **Expo / React Native**. | `.NET 10`, `C# 12`, `Wolverine`, `Marten`, `PostgreSQL`, `Redis`, `Keycloak OIDC`, `GCP Cloud Run`, `Docker`, `OpenTelemetry`, `React Native (Expo)` |
-| **🏢 IDS Latam**<br>*(Senior Software Analyst)*<br>[🌐 `idslatam.com`](https://www.idslatam.com) | • Sistemas críticos para **empresas mineras de primer nivel** (12 módulos core).<br>• Liderazgo técnico: referente para **5+ ingenieros** y review de **~40 PRs/sem**.<br>• Autorización multi-tenant para **~100 roles y 8 clientes** con caché e invalidación.<br>• **Reducción de 50%–80% en latencia**; Azure Service Bus en 4 áreas core. | `.NET 8`, `C#`, `MediatR (CQRS)`, `EF Core`, `SQL Server`, `Stored Procedures`, `Azure Service Bus`, `Azure DevOps`, `NSwag`, `React`, `Python/Django` |
-| **🏨 Arenas Hotel & Spa**<br>*(PMS Integral)*<br>[🌐 `arenashotelspa.com.pe`](https://www.arenashotelspa.com.pe) | • Plataforma PMS integral de hotelería, resort, spa y restaurante llevada de 0 a producción.<br>• Centralización de **20+ operaciones** con cuenta maestra unificada (`nro_registro_maestro`).<br>• Automatización de reportes oficiales de ocupación y tarifas para **MINCETUR**.<br>• Comandas gastronómicas con impresión térmica en red y control de recetas (BOM). | `PHP`, `Laravel`, `Python/Django`, `MariaDB / MySQL`, `Stored Procedures`, `Triggers`, `JavaScript ES6+`, `Bootstrap`, `Impresoras Térmicas ESC/POS` |
-
----
-
-#### 1. ⚡ Aegirax — Plataforma SaaS en Producción (Proyecto Propio)
-> **Stack:** `.NET 10` · `C# 12` · `Wolverine` · `Marten (Event Sourcing)` · `PostgreSQL` · `Redis` · `Keycloak (OIDC/JWT)` · `GCP Cloud Run` · `Docker (Multi-stage)` · `GitHub Actions (WIF)` · `OpenTelemetry (OTLP)` · `xUnit` · `Testcontainers` · `Expo (React Native)`
-
-- **Arquitectura Hexagonal & DDD:** Microservicios en **.NET 10 / C# 12** estructurados en **5 Bounded Contexts**, Clean Architecture estricta, desacoplamiento de frameworks, value objects tipados con Vogen y validación con FluentValidation.
-- **CQRS & Event Sourcing Avanzado:** Implementado con **Wolverine + Marten** sobre **PostgreSQL**, aislando mutaciones transaccionales mediante streams de eventos inmutables de dominio.
-- **Identidad & Caché Distribuido:** Autenticación y autorización federada con **Keycloak (OIDC / JWT multi-tenant)** con resolución dinámica de claims por tenant y **Redis** como caché distribuido.
-- **Infraestructura Cloud Serverless (GCP):** Despliegue automatizado de **8 microservicios en Google Cloud Run** con Cloud Build, Artifact Registry, Pub/Sub, Docker multi-stage y **GitHub Actions vía Workload Identity Federation (WIF)**, sin credenciales estáticas en repositorios. DNS y protección perimetral en Cloudflare.
-- **Testing Exhaustivo:** Suite automatizada de **1,353 tests** (unitarios, integración y arquitectura) con xUnit, FluentAssertions, Respawn, Verify y **Testcontainers** ejecutados contra contenedores reales de PostgreSQL y Redis.
-- **Observabilidad & Gobernanza Spec-Driven:** Instrumentación con **OpenTelemetry (OTLP)** y Cloud Logging (identificando 10+ incidencias reales y optimizando memoria y cold start); ingeniería guiada por **127 planes ejecutados, 26 ADRs**, libro de deuda técnica con ciclo de vida (**224 deudas cerradas**) y gate de biblioteca anclado por hash.
-- **App Móvil:** Desarrollada con **Expo SDK (React Native)**, TypeScript, expo-router y NativeWind, con builds EAS listas para publicación.
-
 ---
 
 #### 2. 🏢 IDS Latam — Senior Software Analyst
-> **Stack:** `.NET 8` · `C#` · `ASP.NET Core MVC` · `MediatR (CQRS)` · `Entity Framework Core` · `SQL Server (Stored Procedures & Triggers)` · `Azure SQL` · `Azure Service Bus` · `Azure Key Vault` · `Azure Functions` · `Azure App Insights` · `Azure DevOps` · `NSwag` · `React` · `Single SPA` · `Zustand` · `Python/Django`
+> *Sistemas de misión crítica para empresas mineras de primer nivel en el Perú.*
 
-- **Liderazgo Técnico & Estándares:** Referente técnico para un equipo de **5+ ingenieros**: code review diario de **~40 PRs semanales** (rango de 5 a 100+), mentoría a desarrolladores junior y definición de buenas prácticas transversales.
-- **Arquitectura Backend & 12 Módulos Core:** Diseño de APIs REST y microservicios con **.NET 8 / C#**, **CQRS sobre MediatR**, Repository Pattern y Dependency Injection en 12 módulos core (asistencia, control de acceso, afiliación de personas, vehículos, seguros internos, autorizaciones, gestión SOMMA, contratos, administración, entrenamiento y movilización).
-- **Autorización Multi-Tenant E2E:** Implementación de extremo a extremo para **~100 roles y 8 clientes corporativos**: roles en base de datos, filtrado multi-tenant (`IHasCustomer` / `IHasCuenta`) y caché distribuido de 15 minutos con invalidación inmediata.
-- **Mensajería Asíncrona Resiliente:** Integración con **Azure Service Bus** (colas y topics) en 4 áreas de negocio (autorización, contratos, vehículos y seguros internos) con idempotencia y reintentos automáticos.
-- **Optimización de Persistencia & Carga:** Mitigación de problemas N+1 en SQL Server con `AsNoTracking` y `AsSplitQuery`, operaciones batch con `ExecuteUpdate`/`ExecuteDelete` y `BulkExtensions`. **Reducción de 50% a 80% en latencia** en reportes masivos de 10,000+ filas y consultas frontend.
-- **Operación Cloud en Azure:** Despliegue en 2 regiones y 6 tenants usando Azure App Service, Azure Functions (notificaciones serverless), Azure SQL, Key Vault (secretos rotados vía RBAC), Azure AD (OpenIdConnect) y App Insights.
-- **Generador de Clientes HTTP (NSwag):** Creación de un generador de clientes tipados en .NET y TypeScript consumidos con SWR, que expuso y corrigió 50+ APIs desactualizadas por diferencias de contratos.
-- **Servicios Auxiliares & Frontend:** Desarrollo de servicios auxiliares en **Node.js** y **Python (Django / DRF)**; frontend con React + Zustand + microfrontends (**Single SPA**) y Angular 2.x+ en paralelo.
+<table border="0">
+  <tr>
+    <td width="36%" valign="top" align="center">
+      <a href="https://www.idslatam.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://image.thum.io/get/width/600/crop/400/https://www.idslatam.com" width="100%" alt="IDS Latam Live Preview" style="border-radius: 8px;" />
+      </a>
+      <br><br>
+      <a href="https://www.idslatam.com">
+        <img src="https://img.shields.io/badge/Live%20Web-idslatam.com-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="idslatam.com" />
+      </a>
+      <br><br>
+      <div align="left">
+        <b>🛠️ Stack Tecnológico:</b><br>
+        <code>.NET 8</code> · <code>C#</code> · <code>ASP.NET Core MVC</code> · <code>MediatR (CQRS)</code> · <code>Entity Framework Core</code> · <code>SQL Server (Stored Procedures & Triggers)</code> · <code>Azure SQL</code> · <code>Azure Service Bus</code> · <code>Azure Key Vault</code> · <code>Azure Functions</code> · <code>Azure App Insights</code> · <code>Azure DevOps</code> · <code>NSwag</code> · <code>React</code> · <code>Single SPA</code> · <code>Zustand</code> · <code>Python/Django</code>
+      </div>
+    </td>
+    <td width="64%" valign="top">
+      <ul>
+        <li><b>Liderazgo Técnico & Estándares:</b> Referente técnico para un equipo de <b>5+ ingenieros</b>: code review diario de <b>~40 PRs semanales</b> (rango de 5 a 100+), mentoría a desarrolladores junior y definición de buenas prácticas transversales.</li>
+        <li><b>Arquitectura Backend & 12 Módulos Core:</b> Diseño de APIs REST y microservicios con <b>.NET 8 / C#</b>, <b>CQRS sobre MediatR</b>, Repository Pattern y Dependency Injection en 12 módulos core (asistencia, control de acceso, afiliación de personas, vehículos, seguros internos, autorizaciones, gestión SOMMA, contratos, administración, entrenamiento y movilización).</li>
+        <li><b>Autorización Multi-Tenant E2E:</b> Implementación de extremo a extremo para <b>~100 roles y 8 clientes corporativos</b>: roles en base de datos, filtrado multi-tenant (<code>IHasCustomer</code> / <code>IHasCuenta</code>) y caché distribuido de 15 minutos con invalidación inmediata.</li>
+        <li><b>Mensajería Asíncrona Resiliente:</b> Integración con <b>Azure Service Bus</b> (colas y topics) en 4 áreas de negocio (autorización, contratos, vehículos y seguros internos) con idempotencia y reintentos automáticos.</li>
+        <li><b>Optimización de Persistencia & Carga:</b> Mitigación de problemas N+1 en SQL Server con <code>AsNoTracking</code> y <code>AsSplitQuery</code>, operaciones batch con <code>ExecuteUpdate</code>/<code>ExecuteDelete</code> y <code>BulkExtensions</code>. <b>Reducción de 50% a 80% en latencia</b> en reportes masivos de 10,000+ filas y consultas frontend.</li>
+        <li><b>Operación Cloud en Azure:</b> Despliegue en 2 regiones y 6 tenants usando Azure App Service, Azure Functions (notificaciones serverless), Azure SQL, Key Vault (secretos rotados vía RBAC), Azure AD (OpenIdConnect) y App Insights.</li>
+        <li><b>Generador de Clientes HTTP (NSwag):</b> Creación de un generador de clientes tipados en .NET y TypeScript consumidos con SWR, que expuso y corrigió 50+ APIs desactualizadas por diferencias de contratos.</li>
+        <li><b>Servicios Auxiliares & Frontend:</b> Desarrollo de servicios auxiliares en <b>Node.js</b> y <b>Python (Django / DRF)</b>; frontend con React + Zustand + microfrontends (<b>Single SPA</b>) y Angular 2.x+ en paralelo.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
 #### 3. 🏨 Arenas Hotel & Spa — Property Management System (PMS)
-> **Stack:** `PHP` · `Laravel` · `Python (Django)` · `MariaDB / MySQL` · `Diseño ER & Stored Procedures` · `Triggers de Auditoría` · `JavaScript ES6+` · `Bootstrap` · `Impresión Térmica ESC/POS (Red)` · `Azure & GCP (Testing)` · `Git`
+> *Sistema integral de gestión hotelera, resort, spa y restaurante llevado de cero a producción sin equipo dedicado.*
 
-- **Centralización Multi-Dominio:** Diseñé y construí de punta a punta la plataforma que unifica **20+ operaciones operativas** en 3 dominios de negocio: **Hospedaje (Hotel), Spa & Bienestar, y Alimentos & Bebidas (Restaurante)**, con un promedio de 60 reservas y 150 huéspedes al mes.
-- **Cuenta Maestra de Liquidación:** Implementación del modelo de estado de cuenta unificado (`nro_registro_maestro`), permitiendo consumos cruzados entre departamentos (cargos de restaurante y terapias de spa a la habitación) y liquidación consolidada en el check-out.
-- **Cumplimiento Normativo (MINCETUR):** Módulo automatizado de registro de huéspedes y cálculo de ocupación hotelera para la generación de reportes oficiales requeridos por el Ministerio de Comercio Exterior y Turismo del Perú.
-- **Persistencia Relacional & Lógica Batch:** Diseño del modelo relacional en **MariaDB / MySQL** (diagrama ER, stored procedures y triggers para consistencia transaccional y auditoría). Migración posterior de microservicios y reportes a **Python/Django**.
-- **Punto de Venta e Infraestructura:** Comandas con control de recetas e inventario (BOM/escandallo), impresión en red con impresoras térmicas ESC/POS; entornos de prueba en Azure y Google Cloud, y producción en hosting autogestionado vía Git.
+<table border="0">
+  <tr>
+    <td width="36%" valign="top" align="center">
+      <a href="https://www.arenashotelspa.com.pe" target="_blank" rel="noopener noreferrer">
+        <img src="https://image.thum.io/get/width/600/crop/400/https://www.arenashotelspa.com.pe" width="100%" alt="Arenas Hotel & Spa Live Preview" style="border-radius: 8px;" />
+      </a>
+      <br><br>
+      <a href="https://www.arenashotelspa.com.pe">
+        <img src="https://img.shields.io/badge/Live%20Portal-arenashotelspa.com.pe-059669?style=for-the-badge&logo=google-chrome&logoColor=white" alt="arenashotelspa.com.pe" />
+      </a>
+      <br><br>
+      <div align="left">
+        <b>🛠️ Stack Tecnológico:</b><br>
+        <code>PHP</code> · <code>Laravel</code> · <code>Python (Django)</code> · <code>MariaDB / MySQL</code> · <code>Diseño ER & Stored Procedures</code> · <code>Triggers de Auditoría</code> · <code>JavaScript ES6+</code> · <code>Bootstrap</code> · <code>Impresión Térmica ESC/POS (Red)</code> · <code>Azure & GCP (Testing)</code> · <code>Git</code>
+      </div>
+    </td>
+    <td width="64%" valign="top">
+      <ul>
+        <li><b>Centralización Multi-Dominio:</b> Diseñé y construí de punta a punta la plataforma que unifica <b>20+ operaciones operativas</b> en 3 dominios de negocio: <b>Hospedaje (Hotel), Spa & Bienestar, y Alimentos & Bebidas (Restaurante)</b>, con un promedio de 60 reservas y 150 huéspedes al mes.</li>
+        <li><b>Cuenta Maestra de Liquidación:</b> Implementación del modelo de estado de cuenta unificado (<code>nro_registro_maestro</code>), permitiendo consumos cruzados entre departamentos (cargos de restaurante y terapias de spa a la habitación) y liquidación consolidada en el check-out.</li>
+        <li><b>Cumplimiento Normativo (MINCETUR):</b> Módulo automatizado de registro de huéspedes y cálculo de ocupación hotelera para la generación de reportes oficiales requeridos por el Ministerio de Comercio Exterior y Turismo del Perú.</li>
+        <li><b>Persistencia Relacional & Lógica Batch:</b> Diseño del modelo relacional en <b>MariaDB / MySQL</b> (diagrama ER, stored procedures y triggers para consistencia transaccional y auditoría). Migración posterior de microservicios y reportes a <b>Python/Django</b>.</li>
+        <li><b>Punto de Venta e Infraestructura:</b> Comandas con control de recetas e inventario (BOM/escandallo), impresión en red con impresoras térmicas ESC/POS; entornos de prueba en Azure y Google Cloud, y producción en hosting autogestionado vía Git.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
