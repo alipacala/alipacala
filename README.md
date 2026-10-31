@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-card.svg" width="100%" alt="Abraham Lipa Calabilla · Senior Software Analyst" />
+<img src="./assets/profile-card.svg" width="100%" alt="Abraham Lipa Calabilla · Senior Software Engineer" />
 
 </div>
 
