@@ -50,11 +50,48 @@
 
 ### 🚀 Sistemas Principales en Producción
 
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h4><b>🏢 IDS Latam</b></h4>
+      <a href="https://www.idslatam.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://image.thum.io/get/width/600/crop/400/https://www.idslatam.com" width="100%" alt="Preview IDS Latam" style="border-radius: 6px;" />
+      </a>
+      <br><br>
+      <a href="https://www.idslatam.com">
+        <img src="https://img.shields.io/badge/Live%20Web-idslatam.com-0078D4?style=flat-square&logo=google-chrome&logoColor=white" alt="idslatam.com" />
+      </a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h4><b>⚡ Aegirax</b></h4>
+      <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer">
+        <img src="https://image.thum.io/get/width/600/crop/400/https://aegirax.com" width="100%" alt="Preview Aegirax" style="border-radius: 6px;" />
+      </a>
+      <br><br>
+      <a href="https://aegirax.com">
+        <img src="https://img.shields.io/badge/Live%20Platform-aegirax.com-6366F1?style=flat-square&logo=google-chrome&logoColor=white" alt="aegirax.com" />
+      </a>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h4><b>🏨 Arenas Hotel & Spa</b></h4>
+      <a href="https://www.arenashotelspa.com.pe" target="_blank" rel="noopener noreferrer">
+        <img src="https://image.thum.io/get/width/600/crop/400/https://www.arenashotelspa.com.pe" width="100%" alt="Preview Arenas Hotel & Spa" style="border-radius: 6px;" />
+      </a>
+      <br><br>
+      <a href="https://www.arenashotelspa.com.pe">
+        <img src="https://img.shields.io/badge/Live%20Portal-arenashotelspa.com.pe-059669?style=flat-square&logo=google-chrome&logoColor=white" alt="arenashotelspa.com.pe" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 | Sistema / Proyecto | Garantía Arquitectónica & Escala de Negocio | Stack Tecnológico |
 | :--- | :--- | :--- |
-| **🏢 IDS Latam**<br>*(Senior Software Analyst)* | • Sistemas críticos para **empresas mineras de primer nivel** (12 módulos core).<br>• Autorización multi-tenant para **~100 roles y 8 clientes** con caché e invalidación inmediata.<br>• **Reducción de 50%–80% en latencia** en reportes masivos y flujos de alta concurrencia.<br>• Mensajería asíncrona con **Azure Service Bus** (colas y topics) en 4 áreas clave. | `.NET 8`, `C#`, `MediatR (CQRS)`, `EF Core`, `SQL Server`, `Azure Service Bus`, `Azure DevOps` |
-| **⚡ Aegirax**<br>*(SaaS en Producción)* | • Arquitectura Hexagonal y DDD desacoplado en **5 Bounded Contexts**.<br>• **CQRS & Event Sourcing** con Wolverine + Marten sobre PostgreSQL.<br>• **8 microservicios en GCP Cloud Run** con Docker multi-stage y CI/CD vía WIF.<br>• Suite de **1,353 tests** con Testcontainers; app móvil con **Expo / React Native**. | `.NET 10`, `PostgreSQL`, `Redis`, `Keycloak OIDC`, `GCP Cloud Run`, `Docker`, `OpenTelemetry` |
-| **🏨 Arenas Hotel & Spa**<br>*(PMS Integral)* | • Plataforma PMS integral de hotelería, resort, spa y restaurante llevada de cero a producción.<br>• Centralización de **20+ operaciones** mediante cuenta maestra unificada (`nro_registro_maestro`).<br>• Automatización de reportes oficiales de ocupación y tarifas para **MINCETUR**.<br>• Comandas gastronómicas con impresión térmica en red y control de recetas e insumos (BOM). | `PHP/Laravel`, `Python/Django`, `MariaDB`, `JavaScript`, `Bootstrap`, `Azure/GCP` |
+| **🏢 IDS Latam**<br>*(Senior Software Analyst)*<br>[🌐 `idslatam.com`](https://www.idslatam.com) | • Sistemas críticos para **empresas mineras de primer nivel** (12 módulos core).<br>• Autorización multi-tenant para **~100 roles y 8 clientes** con caché e invalidación inmediata.<br>• **Reducción de 50%–80% en latencia** en reportes masivos y flujos de alta concurrencia.<br>• Mensajería asíncrona con **Azure Service Bus** (colas y topics) en 4 áreas clave. | `.NET 8`, `C#`, `MediatR (CQRS)`, `EF Core`, `SQL Server`, `Azure Service Bus`, `Azure DevOps` |
+| **⚡ Aegirax**<br>*(SaaS en Producción)*<br>[🌐 `aegirax.com`](https://aegirax.com) | • Arquitectura Hexagonal y DDD desacoplado en **5 Bounded Contexts**.<br>• **CQRS & Event Sourcing** con Wolverine + Marten sobre PostgreSQL.<br>• **8 microservicios en GCP Cloud Run** con Docker multi-stage y CI/CD vía WIF.<br>• Suite de **1,353 tests** con Testcontainers; app móvil con **Expo / React Native**. | `.NET 10`, `PostgreSQL`, `Redis`, `Keycloak OIDC`, `GCP Cloud Run`, `Docker`, `OpenTelemetry` |
+| **🏨 Arenas Hotel & Spa**<br>*(PMS Integral)*<br>[🌐 `arenashotelspa.com.pe`](https://www.arenashotelspa.com.pe) | • Plataforma PMS integral de hotelería, resort, spa y restaurante llevada de cero a producción.<br>• Centralización de **20+ operaciones** mediante cuenta maestra unificada (`nro_registro_maestro`).<br>• Automatización de reportes oficiales de ocupación y tarifas para **MINCETUR**.<br>• Comandas gastronómicas con impresión térmica en red y control de recetas e insumos (BOM). | `PHP/Laravel`, `Python/Django`, `MariaDB`, `JavaScript`, `Bootstrap`, `Azure/GCP` |
 
 ---
 
