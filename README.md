@@ -28,24 +28,12 @@
 
 ### ⚡ Blueprint Arquitectónico & Perfil Ejecutivo
 
-<table border="0">
-  <tr>
-    <td width="58%" valign="top">
-      <p>
-        Ingeniero y desarrollador backend con <b>3+ años full-time</b> (2+ en .NET), especializado en el diseño de microservicios de alto rendimiento, plataformas SaaS en vivo y sistemas de misión crítica:
-      </p>
-      <ul>
-        <li><b>Aegirax (Operación Técnica en Vivo):</b> Único responsable de código, arquitectura y operación de un producto SaaS en <b>.NET 10 / C# 12</b> con Clean Architecture, DDD, Event Sourcing y despliegue serverless en GCP.</li>
-        <li><b>Liderazgo Técnico en Minería (IDS Latam):</b> Referente para 5+ ingenieros, code review diario de <b>~40 PRs/semana</b>, definición de estándares y autorización multi-tenant para ~100 roles.</li>
-        <li><b>Patrones Enterprise & Políglota:</b> CQRS con <b>Wolverine</b> y <b>MediatR</b>, Event Sourcing con <b>Marten</b>, persistencia relacional optimizada (SQL Server, PostgreSQL, MariaDB/MySQL) y servicios en <b>PHP (Laravel)</b> y <b>Python (Django)</b>.</li>
-        <li><b>Cultura de Calidad & Resiliencia:</b> <b>1,353 tests</b> con xUnit y Testcontainers; observabilidad con <b>OpenTelemetry (OTLP)</b> y gobernanza spec-driven (127 planes, 26 ADRs).</li>
-      </ul>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <img src="https://github-readme-stats-fast.vercel.app/api?username=alipacala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0&icon_color=38BDF8" width="100%" alt="GitHub Stats" />
-    </td>
-  </tr>
-</table>
+Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), especializado en el diseño de microservicios de alto rendimiento, plataformas SaaS en vivo y sistemas de misión crítica:
+
+- **Aegirax (Operación Técnica en Vivo):** Único responsable de código, arquitectura y operación de un producto SaaS en **.NET 10 / C# 12** con Clean Architecture, DDD, Event Sourcing y despliegue serverless en GCP.
+- **Liderazgo Técnico en Minería (IDS Latam):** Referente para 5+ ingenieros, code review diario de **~40 PRs/semana**, definición de estándares y autorización multi-tenant para ~100 roles.
+- **Patrones Enterprise & Políglota:** CQRS con **Wolverine** y **MediatR**, Event Sourcing con **Marten**, persistencia relacional optimizada (SQL Server, PostgreSQL, MariaDB/MySQL) y servicios en **PHP (Laravel)** y **Python (Django)**.
+- **Cultura de Calidad & Resiliencia:** **1,353 tests** con xUnit y Testcontainers; observabilidad con **OpenTelemetry (OTLP)** y gobernanza spec-driven (127 planes, 26 ADRs).
 
 ---
 
@@ -190,5 +178,14 @@
 ### 📈 Actividad y Contribuciones
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alipacala&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="60%" alt="GitHub Streak" />
+  <table border="0">
+    <tr>
+      <td width="50%" align="center" valign="middle">
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=alipacala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0&icon_color=38BDF8" width="100%" alt="GitHub Stats" />
+      </td>
+      <td width="50%" align="center" valign="middle">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=alipacala&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" width="100%" alt="GitHub Streak" />
+      </td>
+    </tr>
+  </table>
 </div>
