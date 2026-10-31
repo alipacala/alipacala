@@ -1,11 +1,8 @@
 <table width="100%">
   <tr>
-    <td width="16%" align="center" valign="middle">
-      <img src="./assets/avatar-waving.svg" width="100" height="100" alt="Abraham Lipa Calabilla" />
-    </td>
-    <td width="60%" valign="middle">
+    <td width="76%" valign="middle">
       <p><code>SENIOR SOFTWARE ENGINEER · DISTRIBUTED SYSTEMS &amp; ARCHITECTURE</code></p>
-      <h3><b>Abraham Lipa Calabilla</b>&nbsp;&nbsp;<img src="./assets/badge-verified.svg" width="18" height="18" valign="middle" alt="Verified" /></h3>
+      <h3><b>Abraham Lipa Calabilla</b> 👋&nbsp;<img src="./assets/badge-verified.svg" width="18" height="18" valign="middle" alt="Verified" /></h3>
       <p><code>Microservices in .NET 10 &amp; Cloud | CQRS &amp; Event Sourcing | High-Scale Distributed Systems</code></p>
       <img src="./assets/profile-pills.svg" width="100%" alt="Key Technical Highlights" />
     </td>
@@ -24,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td colspan="3" align="center">
+    <td colspan="2" align="center">
       <sub>Hexagonal Architecture · Event-Driven Microservices · CQRS &amp; Event Sourcing · Spec-Driven Engineering</sub>
     </td>
   </tr>
