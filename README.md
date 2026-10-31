@@ -126,16 +126,17 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
       <br><br>
       <div align="left">
         <b>🛠️ Stack Tecnológico:</b><br>
-        <code>PHP</code> · <code>Laravel</code> · <code>Python (Django)</code> · <code>MariaDB / MySQL</code> · <code>Diseño ER & Stored Procedures</code> · <code>Triggers de Auditoría</code> · <code>JavaScript ES6+</code> · <code>Bootstrap</code> · <code>Impresión Térmica ESC/POS (Red)</code> · <code>Azure & GCP (Testing)</code> · <code>Git</code>
+        <code>PHP</code> · <code>Laravel</code> · <code>Python (Django)</code> · <code>MariaDB / MySQL</code> · <code>Stored Procedures & Triggers</code> · <code>Impresión Térmica ESC/POS (Red)</code> · <code>FPDF (Reportes)</code> · <code>JWT Auth</code> · <code>JavaScript ES6+</code> · <code>Bootstrap</code> · <code>Git</code>
       </div>
     </td>
     <td width="64%" valign="top">
+      <p><b>Dominios de Negocio & Módulos Desarrollados:</b></p>
       <ul>
-        <li><b>Centralización Multi-Dominio:</b> Diseñé y construí de punta a punta la plataforma que unifica <b>20+ operaciones operativas</b> en 3 dominios de negocio: <b>Hospedaje (Hotel), Spa & Bienestar, y Alimentos & Bebidas (Restaurante)</b>, con un promedio de 60 reservas y 150 huéspedes al mes.</li>
-        <li><b>Cuenta Maestra de Liquidación:</b> Implementación del modelo de estado de cuenta unificado (<code>nro_registro_maestro</code>), permitiendo consumos cruzados entre departamentos (cargos de restaurante y terapias de spa a la habitación) y liquidación consolidada en el check-out.</li>
-        <li><b>Cumplimiento Normativo (MINCETUR):</b> Módulo automatizado de registro de huéspedes y cálculo de ocupación hotelera para la generación de reportes oficiales requeridos por el Ministerio de Comercio Exterior y Turismo del Perú.</li>
-        <li><b>Persistencia Relacional & Lógica Batch:</b> Diseño del modelo relacional en <b>MariaDB / MySQL</b> (diagrama ER, stored procedures y triggers para consistencia transaccional y auditoría). Migración posterior de microservicios y reportes a <b>Python/Django</b>.</li>
-        <li><b>Punto de Venta e Infraestructura:</b> Comandas con control de recetas e inventario (BOM/escandallo), impresión en red con impresoras térmicas ESC/POS; entornos de prueba en Azure y Google Cloud, y producción en hosting autogestionado vía Git.</li>
+        <li><b>🏨 Hospedaje & Front Desk (PMS Core):</b> Gestión de check-in / check-out con ficha de pasajero, control de acompañantes, rooming list, planilla de ocupación de habitaciones en tiempo real, housekeeping/mantenimiento, control diario de desayunos y <b>reporte oficial automatizado para MINCETUR</b> (declaración mensual de arribos y pernoctaciones).</li>
+        <li><b>💆 Spa & Bienestar (Wellness):</b> Registro y admisión de clientes al spa, gestión de terapeutas con asignación por habilidades profesionales (masajes, estética, hidroterapia), agenda de turnos/servicios, liquidación por comisiones de terapeuta y módulo integral de <b>Gift Cards</b> (emisión, control de saldo y canje).</li>
+        <li><b>🍽️ Alimentos & Bebidas / Restaurante (F&B POS):</b> Punto de venta para toma de pedidos en mesas, monitor de cocina (KDS) con control de estados de comanda (en preparación, visto, entregado), enrutamiento e impresión automática en red hacia impresoras térmicas ESC/POS (cocina/bar) y <b>escandallo de recetas (BOM)</b> con deducción automática de insumos en inventario.</li>
+        <li><b>💰 Tesorería, Facturación & Cuenta Maestra:</b> Modelo de <b>cuenta maestra unificada (<code>nro_registro_maestro</code>)</b> para consolidar cargos cruzados (habitaciones, consumos de restaurante y sesiones de spa en una sola cuenta al check-out), gestión de caja diaria por turnos (aperturas, arqueos y cierres), emisión de comprobantes electrónicos con integración <b>SUNAT</b> (Boletas, Facturas) y control de cuentas por cobrar/pagar.</li>
+        <li><b>📦 Almacén, Compras & Kardex:</b> Control de inventario simple y valorado, registro de compras a proveedores, petitorios internos de reposición entre áreas y kardex valorizado de productos e insumos.</li>
       </ul>
     </td>
   </tr>
