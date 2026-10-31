@@ -2,13 +2,6 @@
 
 <img src="./assets/profile-card.svg" width="100%" alt="Abraham Lipa Calabilla · Senior Software Analyst" />
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-abrlipac-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Live%20SaaS-aegirax.com-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Aegirax Platform" /></a>
-  <a href="mailto:alipacala@outlook.com"><img src="https://img.shields.io/badge/Outlook-alipacala%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <a href="https://www.efset.org/cert/qyYV9x" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/EF%20SET-C2%20Proficient-22C55E?style=for-the-badge&logo=duolingo&logoColor=white" alt="English C2" /></a>
-</p>
-
 </div>
 
 ---
