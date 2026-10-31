@@ -8,21 +8,6 @@
 </a>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abrlipac/"><img src="https://img.shields.io/badge/LinkedIn-abrlipac-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:alipacala@outlook.com"><img src="https://img.shields.io/badge/Outlook-alipacala%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/English-C2%20Proficient-22C55E?style=for-the-badge&logo=duolingo&logoColor=white" alt="English C2" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SaaS%20Platform-Aegirax%20in%20Production-6366F1?style=flat-square" alt="Aegirax" />
-  <img src="https://img.shields.io/badge/Enterprise-Top--Tier%20Mining%20Systems-0284C7?style=flat-square" alt="Mining" />
-  <img src="https://img.shields.io/badge/Tech%20Lead-5%2B%20Engineers%20%C2%B7%20~40%20PRs%2Fwk-8B5CF6?style=flat-square" alt="Lead" />
-  <img src="https://img.shields.io/badge/Optimization-50--80%25%20Latency%20Cut-10B981?style=flat-square" alt="Latency" />
-  <img src="https://img.shields.io/badge/Testing-1%2C353%2B%20Automated%20Tests-EC4899?style=flat-square" alt="Tests" />
-  <img src="https://img.shields.io/badge/Location-Lima%2C%20Per%C3%BA-38BDF8?style=flat-square" alt="Location" />
-</p>
-
-<p align="center">
   <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
     <img src="./assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
   </a>
