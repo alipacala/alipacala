@@ -22,6 +22,12 @@
   <img src="https://img.shields.io/badge/Location-Lima%2C%20Per%C3%BA-38BDF8?style=flat-square" alt="Location" />
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
+    <img src="./assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
+  </a>
+</p>
+
 </div>
 
 ---
@@ -211,47 +217,3 @@ Ingeniero y desarrollador backend con **3+ años full-time** (2+ en .NET), espec
     </tr>
   </table>
 </div>
-
----
-
-### 💼 Perfil Profesional & Conexión Directa
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/linkedin-card.svg" width="100%" alt="Abraham Lipa - LinkedIn Profile" />
-  </a>
-</div>
-
-<br>
-
-<table width="100%">
-  <tr>
-    <td width="65%" valign="top">
-      <h4><b>Abraham Lipa Calabilla</b></h4>
-      <p>
-        <code>Senior Software Analyst · .NET + Azure | CQRS + MediatR | Systems for Top-Tier Mining Companies</code>
-      </p>
-      <p>
-        Especialista backend con foco en microservicios transaccionales, consistencia eventual, observabilidad y liderazgo técnico. Abierto a retos de ingeniería distribuida, modernización de arquitectura cloud y plataformas de alta demanda.
-      </p>
-      <ul>
-        <li><b>Ubicación:</b> Lima, Perú (Disponible para esquemas Remoto / Híbrido)</li>
-        <li><b>Educación:</b> Bachiller en Ingeniería de Sistemas · Universidad Privada de Tacna</li>
-        <li><b>Idiomas:</b> Español (Nativo) · Inglés C2 Proficient (EF SET 73/100)</li>
-      </ul>
-    </td>
-    <td width="35%" align="center" valign="middle">
-      <a href="https://www.linkedin.com/in/abrlipac/" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/LinkedIn-abrlipac-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" width="90%" alt="LinkedIn Profile" />
-      </a>
-      <br><br>
-      <a href="mailto:alipacala@outlook.com">
-        <img src="https://img.shields.io/badge/Outlook-alipacala%40outlook.com-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" width="90%" alt="Direct Email" />
-      </a>
-      <br><br>
-      <a href="https://aegirax.com" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.shields.io/badge/SaaS-aegirax.com-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white" width="90%" alt="Aegirax Platform" />
-      </a>
-    </td>
-  </tr>
-</table>
